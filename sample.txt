@@ -1,0 +1,26 @@
+db.subjects.insertMany([
+	{
+		code: 'CMSC 100',
+		description: 'Web Programming',
+		students: 20,
+		teminal: false
+	},
+	{
+		code: 'CMSC 150',
+		description: 'Numerical and Symbolic Computations',
+		students: 20,
+		terminal: true
+	},
+	{
+		code: 'CMSC 127',
+		description: 'Databases',
+		students: 20,
+		terminal: false
+	}
+])
+
+
+
+mkdir
+npm init
+npm install mongoose --save
